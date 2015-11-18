@@ -2,7 +2,7 @@ __author__ = 'roy'
 from config import spider_ready
 
 
-class master:
+class master(object):
     def __init__(self, job_manager, _spiders):
         self.tm = job_manager
         self.spiders = _spiders
