@@ -1,5 +1,3 @@
-__author__ = 'roy'
-
 
 class PY000001(object):
     def __init__(self):
