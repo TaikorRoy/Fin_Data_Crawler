@@ -1,10 +1,14 @@
+__author__ = 'roy'
 
-class PY000001(object):
+
+class PY000001:
     def __init__(self):
+        self.url = url
         self.crawling_time = None
         self.source_name = None
         self.crawl_id = None
         self.data_id = None
+        pass
 
     def crawl(self, job):
         pass
@@ -17,4 +21,3 @@ class PY000001(object):
 
     def sleep(self):
         pass
-
