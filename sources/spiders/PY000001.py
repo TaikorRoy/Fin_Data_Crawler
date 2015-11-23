@@ -3,7 +3,7 @@ __author__ = 'roy'
 
 class PY000001:
     def __init__(self):
-        self.url = url
+        self.url = None
         self.crawling_time = None
         self.source_name = None
         self.crawl_id = None
