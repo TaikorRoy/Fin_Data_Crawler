@@ -9,5 +9,9 @@ def get_formated_time():
     hour = struct_time.tm_hour
     min = struct_time.tm_min
     sec = struct_time.tm_sec
-    formated_time = str(year) + "-" + str(month) + "-" + str(day) + " " + str(hour) + ":" + str(min) + ":" + str(sec)
+    formated_time = str(year) + "-" + str(month) + "-" + str(day) + "T" + str(hour) + ":" + str(min) + ":" + str(sec) + "+08:00"
     return formated_time
+
+
+if __name__ == "__main__":
+    print(get_formated_time())
