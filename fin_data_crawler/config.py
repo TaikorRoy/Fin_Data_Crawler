@@ -6,11 +6,14 @@ spider_ready = {
 
 
 # --- PUBLIC CONFIGURE ---
-
 es_base_url = "http://tank.palaspom.com:9200"
 index = "palas_v1"
 type = "items"
 
+mysql_host = "pubtopic.org:3306"
+username = "palas"
+pw = "lapas"
+db = "fin_mysql_db"
 # ------------------------
 
 

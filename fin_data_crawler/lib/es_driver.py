@@ -1,5 +1,5 @@
 from string import Template
-from ..config import es_base_url, index, type
+from fin_data_crawler.config import es_base_url, index, type
 import requests
 import json
 

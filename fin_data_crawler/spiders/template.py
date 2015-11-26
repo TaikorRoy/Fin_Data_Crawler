@@ -1,5 +1,5 @@
-from ..lib.es_driver import ESdriver
-from ..lib.mysql_driver import MySQLdriver
+from fin_data_crawler.lib.es_driver import ESdriver
+from fin_data_crawler.lib.mysql_driver import MySQLdriver
 
 
 class PY_TEMPLATE(object):
