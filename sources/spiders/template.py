@@ -4,11 +4,8 @@ from ..lib.mysql_driver import MySQLdriver
 
 class PY_TEMPLATE(object):
     def __init__(self):
-        self.crawling_time = None
         self.source_name = None
         self.crawl_id = None
-        self.data_id = None
-        self.es_doc = None
         self.data = None
 
         # TODO: Define Spider Specific Class Attributes

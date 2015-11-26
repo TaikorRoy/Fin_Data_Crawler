@@ -44,4 +44,3 @@ if __name__ == "__main__":
     print(sql)
     mysql.insert(sql)
     mysql.clean_up()
-    print(sql)
