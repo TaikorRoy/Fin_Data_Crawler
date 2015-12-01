@@ -8,7 +8,8 @@ class master(object):
         self.spiders = _spiders
 
     def wake_up_spider(self, _id):
-        return self.spiders[_id]
+        spider = self.spiders[_id]()
+        return spider
 
     def start_main_loop(self):
         while True:
@@ -19,3 +20,5 @@ class master(object):
                 spider.push_to_db()
                 spider.logging()
                 spider.sleep()
+                del spider
+
