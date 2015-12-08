@@ -35,14 +35,7 @@ class MySQLdriver(object):
 
 
 if __name__ == "__main__":
-    mysql_host = "pubtopic.org"
-    username = "roy"
-    pw = "dBJky2AtHVF391cUOms5"
-    db = "fin_mysql_db"
-    mysql = MySQLdriver(mysql_host, username, pw, db)
-    sql = "select count(*) from profitability_ratios where code = 13"
-    result = mysql.check_records(sql)
-    a = 1
+    
 
 
 
